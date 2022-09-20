@@ -47,17 +47,6 @@ CREATE TABLE bookings (
     FOREIGN KEY (guestID) REFERENCES guest(guestID));
 
 
-SHOW TABLES;
-SELECT * FROM emails;
-SELECT * FROM contact_info;
-SELECT * FROM guest;
-SELECT * FROM expansions;
-SELECT * FROM rooms;
-INSERT INTO emails (email) VALUES ("test@email.ddu");
-INSERT INTO contact_info (phonenumber, emailID) VALUES (23057633, 1);
-INSERT INTO guest (zipcode, address, fname, lname, contactID) VALUES (4847, "Byvej 27", "Karl", "Tester", 1);
-
-
 
 INSERT INTO expansions (kitchen, jacuzzi, double_bed, balcony, bath) VALUES (0, 0, 1, 0, 1), (0, 0, 1, 0, 0), (0, 1, 1, 1, 0),
                                                                             (1, 1, 1, 1, 0), (0, 1, 1, 0, 1), (0, 0, 0, 0, 1),
