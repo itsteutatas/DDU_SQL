@@ -9,17 +9,13 @@ vi blev dog hurtigt færdig med basis og valgte at lave et visual i python som m
 ville kunne booke/indsætte dataen ind i vores mySQL database
 
 
-
 ### Step-by-step guide
-* Install xampp and start database
-* Open admin site through xampp 
-* Set credentials to your prefered
+* Install xampp and start MySQL
+* Open admin site through Xampp and change credentials. (Optional). Default is user: "root" and password: "" (Blank or none)
 * Connect to database through datagrip
 * Run console.SQL
-* Change credentials in python script
-* Run python script
-
-
+* Change credentials in python script. (Optional. Default should work)
+* Run manager.py
 
 
 ### Knowledge usage
